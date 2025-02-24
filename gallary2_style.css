@@ -1,0 +1,38 @@
+.btn2{
+    background-color: #6E9887;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn1{
+    background-color: white;
+    color:#6E9887;
+    transition: background-color .2s ease-in;
+}
+
+.btn1:hover{
+    background-color: #6E9887;
+    color: white;
+    cursor: pointer;
+}
+
+.gallary-video{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    gap:30px 10px;
+    /* height: 450px; */
+    /* padding: 10px 100px;
+    margin:20px 20px 0; */  
+}
+
+video{
+    height: 600px; 
+}
+
+.video3{
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,216 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* navigation */
+
+.container1 {
+    height: 70px;
+    width: 100%;
+    background-color:#B5BFA1;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    border-bottom: 2px solid white;
+}
+
+/* logo-section */
+
+.logo {
+    height: 100px;
+    width: 200px;
+
+    img {
+        margin-left: 50px;
+        height: 120%;
+        width: 90%;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+}
+
+/* navbar section */
+
+.navbar {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:0 10px;
+}
+
+.sub-nav{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in 0s;
+    
+}
+
+.sub-gallary{
+    background-color: #f1faee;
+}
+
+.sub-nav:hover{
+    background-color: #f1faee;
+    
+}
+
+.book:hover{
+    background-color: green;
+    a{
+        color:white;
+    }
+}
+
+/* social */
+
+.social{
+    background-color: white;
+}
+
+.social p{
+    color: #6E9887;
+}
+
+.festival{
+    background-color: #6E9887;
+}
+
+.festival p{
+    color: white;
+}
+
+#img1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)), url(festival_img4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* HOLI Festival EVENTS */
+
+.festival-event1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 10px 0px 10px;
+    background-color: rgba(244, 132, 132, 0.1);
+}
+
+.festival-img1{
+    height: 260px;
+    width: 515px;
+    background-image: url(festival_img1.avif);
+    background-size: cover;
+}
+
+/* GARBA Festival EVENTS */
+
+.festival-event2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 10px 0px 10px;
+}
+
+.festival-img2{
+    height: 260px;
+    width: 515px;
+    background-image: url(festival_img2.webp);
+    background-size: cover;
+}
+
+/* FRENDSHIP Festival EVENTS */
+
+.festival-event3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 10px 0px 10px;
+    background-color: rgba(244, 132, 132, 0.1);
+}
+
+.festival-img3{
+    height: 260px;
+    width: 515px;
+    background-image: url(festival_img3.jpg);
+    background-size: cover;
+}
+
+/* footer-section */
+
+.sub-title{
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px 0 10px 0;
+}
+
+.sub-title p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:#601700;
+}
+
+.title{
+    /* background-color:#F283B6 ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin:30px 0px;
+}
+
+.title p{
+    color: #6E9887;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title img{
+    margin:0 15px 0 15px;
+}
+
+.intro{
+    padding:10px 50px;
+    text-align: center;
+}
+
+.sub-title2{
+    text-align: center;
+    margin:20px 0 5px 0;
+}
+
+.sub-title2 p{
+    font-size: 1.7rem;
+}
+
+.section-footer .sub-title{
+    margin-top: 20px;
+}
+

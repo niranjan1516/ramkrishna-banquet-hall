@@ -1,0 +1,584 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* navigation */
+.section#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.container1 {
+    height: 70px;
+    width: 100%;
+    background-color:#B5BFA1;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    border-bottom: 2px solid white;
+}
+
+/* logo-section */
+
+.logo {
+    height: 100px;
+    width: 200px;
+
+    img {
+        margin-left: 50px;
+        height: 120%;
+        width: 90%;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+}
+
+/* navbar section */
+
+.navbar {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:0 10px;
+}
+
+.sub-nav{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in 0s;
+    
+}
+
+.sub-gallary{
+    background-color: #f1faee;
+}
+
+.sub-nav:hover{
+    background-color: #f1faee;
+    
+}
+
+.sub-event{
+    background-color: white;
+}
+
+.book:hover{
+    background-color: green;
+    a{
+        color:white;
+    }
+}
+/* content-section */
+
+.slideshow {
+    display: inline;
+    
+}
+
+.box1{
+    height: 600px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)), url(bride_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title_2 p{
+    color:white ;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Event button */
+
+.event-button{
+    margin-top: 50px;
+}
+
+.title{
+    /* background-color:#F283B6 ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin:30px 60px;
+}
+
+.title p{
+    color: #6E9887;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#butt{
+    height: 50px;
+    width: 250px;
+    border: solid 2px #6E9887;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6E9887;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 350px 0px 350px;
+}
+
+.social{
+    background-color: #6E9887;
+}
+
+.social p{
+    color: white; 
+}
+
+a{
+    text-decoration: none;
+}
+
+/* social event section */
+
+.social-event1{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 10px 0px 10px;
+    align-items: center;
+    background-color: rgba(244, 132, 132, 0.1);
+}
+
+.social-img1{
+    height: 260px;
+    width: 515px;
+    background-image: url(event_socal1.jpg);
+    background-size: cover;
+}
+
+.event-info{
+    height: 350px;
+    width: 800px;
+    font-size: 1.3rem;
+}
+
+/* wedding section */
+
+.social-event2{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 10px 0px 10px;
+    align-items: center;
+}
+
+.social-img2{
+    height: 260px;
+    width: 515px;
+    background-image: url(bride_1.jpg);
+    background-size: cover;
+}
+
+/* Reception section */
+
+.social-event3{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 10px 0px 10px;
+    align-items: center;
+    background-color: rgba(244, 132, 132, 0.1);
+}
+
+.social-img6{
+    height: 260px;
+    width: 515px;
+    background-image: url(bride_3.jpg);
+    background-size: cover;
+}
+
+/* anniversary section */
+
+.social-event4{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 10px 0px 10px;
+    align-items: center;
+}
+
+.social-img3{
+    height: 260px;
+    width: 515px;
+    background-image: url(The-Dancing-Bride.jpg);
+    background-size: cover;
+}
+
+/* party section */
+
+.social-event5{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 10px 0px 10px;
+    align-items: center;
+    background-color: rgba(244, 132, 132, 0.1);
+}
+
+.social-img7{
+    height: 260px;
+    width: 515px;
+    background-image: url(event_socal7.jpg);
+    background-size: cover;
+}
+
+/* catering section */
+
+.social-event6{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 10px 20px 10px;
+    align-items: center;
+}
+
+.social-img4{
+    height: 260px;
+    width: 515px;
+    background-image: url(event_socal4.jpg);
+    background-size: cover;
+}
+
+/* decoration section */
+
+.social-event7{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 10px 0px 10px;
+    align-items: center;
+    background-color: rgba(244, 132, 132, 0.1);
+}
+
+.social-img8{
+    height: 260px;
+    width: 515px;
+    background-image: url(g_pic_9.jpeg);
+    background-size: cover;
+}
+/* book-section */
+
+.container-book{
+    height:150px;
+    background-color: #A7C957;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-now{
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-now p{
+    font-size: 2.1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color:#082D0F;
+}
+
+.btn-book{
+    padding:10px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    border:none;
+    color:#DB5ABA;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.btn-book:hover{
+    color:white;
+    background-color: #DB5ABA;
+    cursor: pointer;
+}
+
+/* footer-section */
+
+.f-sub-title{
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px 0 10px 0;
+}
+
+.f-sub-title p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:#601700;
+}
+
+.f-title{
+    /* background-color:#F283B6 ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin:30px 0px;
+}
+
+.f-title p{
+    color: #6E9887;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.f-title img{
+    margin:0 15px 0 15px;
+}
+
+.intro{
+    padding:10px 50px;
+    text-align: center;
+}
+
+.f-sub-title2{
+    text-align: center;
+    margin:20px 0 5px 0;
+}
+
+.f-sub-title2 p{
+    font-size: 1.7rem;
+}
+
+.section-footer .f-sub-title{
+    margin-top: 20px;
+}
+
+/* section-address */
+
+.foot-address{
+    height:530px;
+    display: flex;
+    align-items: start;
+    padding: 50px 100px;
+}
+
+.con-address{
+    margin:0 0 0 40px;
+}
+
+.address{
+    margin-bottom: 20px;
+}
+.add-title{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color:#601700;
+}
+
+.info{
+    font-size: 1.2rem;
+    color:black;
+    padding: 20px 0;
+}
+
+.follow{
+    font-size: 2rem;
+
+}
+
+.follow i{
+    padding: 20px 0 0;
+}
+
+.follow #insta:hover{
+    color:orangered;
+    cursor: pointer;
+}
+
+.follow #face:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+.follow #x:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.copyright{
+    height: 130px;
+    padding:10px  0;
+    text-align: center;
+    background-color:rgba(244, 132, 132, 0.1);
+    color: black;
+}
+
+.copyright p{
+    padding:10px 0;
+    font-size: 1.2rem;
+}
+
+/* contact-form */
+
+.cancel{
+    a{
+        position: fixed;
+        right: 25px;
+        top:20px;
+        font-size: 1.5rem;
+    }
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+form{
+    /* width:50%; */
+    height: 710px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:600px;
+    padding:35px;
+    box-shadow: 0 5px 30px rbga(0,0,0,0.30);
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.2);
+}
+
+form.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.form-title{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: #6E9887;
+    margin:5px 5px;
+    text-align: center;
+}
+
+.f-input{
+    height: 80px;
+    width:100%;
+    margin-top:5px;
+    font-size: 1rem;
+}
+
+label{
+    font-size: 1rem;
+    width:100%;
+    font-weight: 600;
+}
+
+input{
+    outline: none;
+    height: 40px;
+    width:100%;
+    border:none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    margin-top:5px;
+    transition: border .2s ease-in-out;
+}
+
+input:hover{
+    border-bottom:2px solid black;
+}
+
+
+select{
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 5px;
+    font-size: 1rem;
+    transition: border .2s ease-in-out;
+}
+
+select:hover{
+    border:2px solid black;
+}
+
+.date{
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+textarea{
+    width: 100%;
+    margin:5px 0 5px;
+    font-size: 1rem;
+    outline: none;
+    resize: none;
+    background-color: #f8f8ff;
+}
+
+.submit{
+    height: 50px;
+    width:100%;
+    background-color:white;
+    border:2px solid #6E9887;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color:#6E9887;
+    margin-top:30px;
+    transition: all .3s ease-in;
+}
+
+.submit:hover{
+    background-color: #6E9887;
+    color:white
+}

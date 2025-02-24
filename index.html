@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home Page</title>
+</head>
+
+<body>
+  <div class="section" id="blur">
+   <!-- navigation bar -->
+   <header>
+    <div class="container1">
+        <div class="logo">
+            <img src="logo.jpg" alt="logo">
+        </div>
+        <div class="navbar">
+            <nav>
+                <div class="sub-nav"><a href="index.html">Home</a></div>
+                <div class="sub-nav"><a href="venu.html">Venue</a></div>
+                <div class="sub-nav"><a href="gallary.html">Gallary</a></div>
+                <div class="sub-nav"><a href="event_social.html">Events</a></div>
+                <div class="sub-nav"><a href="about_us.html">About us</a></div>
+                <div class="sub-nav"><a href="contact.html">Contact</a></div>
+                <div class="book" ><a href="#" onclick="toggle()">Book Now</a></div>
+            </nav>
+        </div>
+    </div>
+    </header>
+
+    <!-- content section -->
+
+    <div class="slideshow">
+        <div class="box1" id="img1"></div>
+    </div>
+
+    <!-- experiance -->
+    <div class="experiance">
+        <div class="numbers">
+            <p class="counter" id="no">9 </p><span> +</span>
+            <p id="dis">Years in Industry</p>
+        </div>
+        <div class="numbers">
+            <p class="counter" id="no">7500</p><span> Sqft</span>
+            <p id="dis">Ballroom</p>
+        </div>
+        <div class="numbers">
+            <p class="counter" id="no">1000</p><span> +</span>
+            <p id="dis">Event Celebrated</p>
+        </div>
+        <div class="numbers">
+            <p class="counter" id="no">5</p><span> acre</span>
+            <p id="dis">Venue Area</p>
+        </div>
+        <div class="numbers">
+            <p class="counter" id="no">450</p><span> +</span>
+            <p id="dis">5 Star Rating</p>
+        </div>
+    </div>
+
+    <!-- counting number -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.counter').counterUp({
+        delay: 10,
+        time: 1000,
+        stop: 1});
+    </script>
+
+    <!-- venue-section -->
+
+    <div class="venue-section">
+        <div class="venue-info">
+            <div class="sub-title">
+                <p>FOR GRAND EVENTS</p>
+            </div>
+            <div class="title">
+                <!-- <img src="star.png" alt="star" height="30px"> -->
+                <P>VENUE</P>
+                <!-- <img src="star.png" alt="star" height="30px"> -->
+            </div>
+            <div class="intro">
+                <p>Our beautiful 7500 Sqft pillarless indoor banquet is a perfect space to host your guests. It is equipped with professional audio capabilities, sparkling chandeliers and mood controllable lights to create an ideal atmosphere as per your event. The banquet is fully ventilated and air-conditioned to keep your guests comfortable.</p>
+            </div>
+            <div class="more-about">
+                <a href="venu.html">More About Venue</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- gallary-section -->
+
+    <div class="con-gallary">
+        <div class="gallary-info">
+            <div class="sub-title">
+                <p>INSPIRED BY YOUR HAPPINESS</p>
+            </div>
+            <div class="title">
+                <p>GALLARY</p>
+            </div>
+            <div class="sub-info">
+                <p>Our professionals are here to assist you from reserving the dates, planning & scheduling of the
+                    events, coordinating with the catering and decor experts related to food & event set up & all other
+                    details.</p>
+            </div>
+        </div>
+        <div class="gallary-container">
+            <div class="grid-item item1"></div>
+            <div class="grid-item item2"></div>
+            <div class="grid-item item3"></div>
+            <div class="grid-item item4"></div>
+            <div class="grid-item item5"></div>
+            <div class="grid-item item6"></div>
+            <div class="grid-item item7"></div>
+            <div class="grid-item item8"></div>
+            <div class="grid-item item9"></div>
+            <div class="grid-item item10"></div>
+        </div>
+    </div>
+
+    <!-- section-events -->
+
+    <div class="events">
+        <div class="event-info">
+            <div class="sub-title">
+                <p>WHAT WE DO</p>
+            </div>
+            <div class="title">
+                <p>OUR EVENTS</p>
+            </div>
+            <div class="sub-info">
+                <p>Our professionals are here to assist you from reserving the dates, planning & scheduling of the
+                    events, coordinating with the catering and decor experts related to food & event set up & all other
+                    details.</p>
+            </div>
+        </div>
+        <div class="event">
+            <div class="events2">
+                <div class="event-item e-item1"></div>
+            </div>
+            <div class="events2">
+                <div class="event-item e-item2"></div>
+            </div>
+            <div class="events2">
+                <div class="event-item e-item3"></div>
+            </div>
+
+            <div class="event-item e-item4">
+                <p>WEDDING</p>
+            </div>
+            <div class="event-item e-item5">
+                <p>RECEPTION</p>
+            </div>
+            <div class="event-item e-item6">
+                <p>CORPORATE</p>
+            </div>
+
+            <div class="events2">
+                <div class="event-item e-item7"></div>
+            </div>
+            <div class="events2">
+                <div class="event-item e-item8"></div>
+            </div>
+            <div class="events2">
+                <div class="event-item e-item9"></div>
+            </div>
+
+            <div class="event-item e-item10">
+                <p>PARTY</p>
+            </div>
+            <div class="event-item e-item11">
+                <p>EXHIBITION</p>
+            </div>
+            <div class="event-item e-item12">
+                <p>ANNIVERSARY</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Testimonials -->
+    <div class="testi">
+        <div class="testi-info">
+            <div class="sub-title">
+                <p>WHAT OUR VISITORS SAY</p>
+            </div>
+            <div class="title">
+                <p>TESTIMONIALS</p>
+            </div>
+        </div>
+        <div class="d1">
+
+            <div class="gallery-wrap">
+
+                <i class="fa-solid fa-circle-chevron-left" id="backBtn"></i>
+
+                <div class="gallery">
+                    <div>
+                        <div class="visitor-say" id="say1"></div>
+                        <div class="visitor-say" id="say2"></div>
+                        <div class="visitor-say" id="say3"></div>
+                    </div>
+                    <div>
+                        <div class="visitor-say" id="say4"></div>
+                        <div class="visitor-say" id="say5"></div>
+                        <div class="visitor-say" id="say6"></div>
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-circle-chevron-right" id="nextBtn"></i>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let scrollcontainer = document.querySelector(".gallery");
+        let backBtn = document.getElementById("backBtn");
+        let nextBtn = document.getElementById("nextBtn");
+
+        scrollcontainer.addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollcontainer.scrollLeft += evt.deltaY;
+        });
+
+        nextBtn.addEventListener("click", () => {
+            scrollcontainer.style.scrollBehavior = "smooth";
+            scrollcontainer.scrollLeft += 1000;
+        });
+
+        backBtn.addEventListener("click", () => {
+            scrollcontainer.style.scrollBehavior = "smooth";
+            scrollcontainer.scrollLeft -= 1000;
+        });
+    </script>
+
+    <!-- go to Top -->
+
+    <div class="top">
+        <a href="#">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+            <p>Back To Top</p>
+        </a>
+    </div>
+
+    <!-- footer-section -->
+
+    <footer>
+        <div class="section-footer">
+            <div class="event-info">
+                <div class="sub-title">
+                    <p>WHERE WE ARE?</p>
+                </div>
+                <div class="title">
+                    <p>Ramkrishna Multipurpose Lawn & Hall</p>
+                </div>
+                <div class="sub-title2">
+                    <p>Multipurpose Hall in Kolhapur, Maharashtra</p>
+                </div>
+            </div>
+            <div class="foot-address">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.4657686601986!2d74.27046947519524!3d16.70359618407165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc101b63a2d9d17%3A0x7e54427b07cbb778!2sRamkrishna%20Multipurpose%20Lawn%20%26%20Hall%20%7C%20Best%20Wedding%20Lawn%20and%20Hall%20in%20Kolhapur%20%7C%20Marriage%20Hall%20%7C%20Party%20Lawn!5e0!3m2!1sen!2sin!4v1708883321133!5m2!1sen!2sin"
+                        width="600" height="430" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="con-address">
+                    <div class="address">
+                        <p class="add-title">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Address -
+                        </p>
+                        <p class="info">
+                            Shahu Market Yard
+                            Kolhapur, Maharashtra 416005
+                            India.</p>
+                    </div>
+                    <div class="address">
+                        <P class="add-title">
+                            <i class="fa-solid fa-clock"></i>
+                            Opening Hours -
+                        </P>
+                        <p class="info">Monday - Sunday : Open 24 Hours.</p>
+
+                    </div>
+                    <div class="address">
+                        <p class="add-title">
+                            <i class="fa-solid fa-phone"></i>
+                            Contact -
+                        </p>
+                        <p class="info">094223 33333</p>
+                    </div>
+                    <div class="follow">
+                        <p class="add-title">
+                            <i class="fa-solid fa-user-plus"></i>
+                            Follow Us On -
+                        </p>
+                        <a href="https://www.instagram.com/ramkrishnalawnandhall/" target="_main"><i class="fa-brands fa-instagram" id="insta"></i></a>
+                        <a href="https://www.facebook.com/ramkrishnalawnandhall/"  target="_main"><i class="fa-brands fa-square-facebook" id="face"></i></a>
+                        <a href="https://wa.me/<094223 33333>" target="_main"><i class="fa-brands fa-whatsapp" id="whats"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line">
+            <hr>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2020 Ramkrishna Hall. All rights reserved.</p>
+            <p>Design by <i class="fa-solid fa-heart"></i> in India</p>
+        </div>
+    </footer>
+  </div>  
+
+<!-- contact-form -->
+
+<div class="contact-us">
+    <form action="action.php">
+        <div class="cancel">
+            <a href="#" onclick="toggle()">
+                <i class="fa-solid fa-xmark"></i>
+            </a>
+        </div>
+        <p class="form-title">BOOK NOW</p>
+        <div class="f-input">
+            <label for="f-input">Full Name</label>
+            <input type="text" required>
+        </div>
+
+        <div class="f-input">
+            <label for="f-input">Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="f-input">
+            <label for="f-input">Mobile</label>
+            <input type="tel" required>
+        </div>
+
+        <div class="f-input">
+            <label for="f-input">Occasion</label>
+            <select name="occasion">
+                <option value="--">--</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Reception">Reception</option>
+                <option value="Party">Party</option>
+                <option value="Anniversary">Anniversary</option>
+                <option value="Corporate">Corporate</option>
+                <option value="Exibition">Exibition</option>
+            </select>
+        </div>
+
+        <div class="f-input">
+            <label for="f-input">Required Date</label>
+            <input class="date" type="date" required>
+        </div>
+
+        <div class="f-input">
+            <label for="f-input">Message</label>
+            <textarea name="Message" rows="3"></textarea>
+        </div>
+
+        <div class="f-input">
+            <button class="submit">BOOK</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function toggle(){
+        let blur = document.getElementById('blur');
+        blur.classList.toggle('active');
+        let form= document.querySelector('form');
+        form.classList.toggle('active');
+    }
+</script>
+</body>
+
+</html>
